@@ -144,14 +144,6 @@
                 
                 function mostraCadastro(){
 
-                /*var elemento = document.createElement("DIV");
-                document.body.appendChild(elemento);
-
-                elemento.setAttribute("class","resultado")
-
-                var conteudo = document.createTextNode(`E-mail: ${Cadastro.email} Senha: ${Cadastro.senha} Estado: ${Cadastro.estado} Sexo: ${Cadastro.sexo}`);
-                elemento.appendChild(conteudo);*/
-
                 var resultado = document.getElementById("teste")
 
                 resultado.innerHTML = (`E-mail: ${Cadastro.email} <br> Senha: ${Cadastro.senha} <br> Estado: ${Cadastro.estado} <br> Sexo: ${Cadastro.sexo}`)
@@ -175,24 +167,11 @@
         let Cadastro = {
             email:document.getElementById("exampleInputEmail1").value = "",            
             senha:document.getElementById("inputPassword6").value = "",            
-            estado:document.getElementById("estado").value = "",
+            estado:document.getElementById("estado").value = "1",
             sexo: selectedOption = "",
         }
 
-    }
-
-
-
-
-   
-    
-
-    
-
-       
-
-    
-            
+    }     
 
     
 
